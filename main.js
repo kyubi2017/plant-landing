@@ -206,7 +206,7 @@ gsap.from(".review-card", {
   ease: "power4.out",
   delay: 0.4,
   scrollTrigger: {
-    trigger: ".review-card",
+    trigger: "#last-card",
     start: "top 80%",
   },
 });
